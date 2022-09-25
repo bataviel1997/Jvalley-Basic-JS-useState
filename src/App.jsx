@@ -26,7 +26,7 @@ export default function App(){
     return(
         <div className="w-screen min-h-screen bg-slate-100">
             <div className="w-full max-w-[900px] flex flex-col mx-auto p-10">
-                <h1 className="text-4xl text-orange-500">Data Siswa</h1>
+                <h1 className="text-4xl text-orange-500">Data Siswa Sekolah</h1>
 
                 <form className="w-full flex flex-col p-8 bg-white shadow-lg gap-4 mt-10" onSubmit={handleSubmit}>
                     <div className="flex flex-col gap-2">
